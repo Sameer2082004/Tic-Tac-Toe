@@ -182,9 +182,9 @@ class MainActivity : AppCompatActivity() {
             b9.text=a[8];x9=1;
             winnercheck()
             if (xy == 1)
-                t.text="Player X won the Game";x1=1;x2=1;x3=1; x4=1;x5=1;x6=1;x7=1; x8=1;x9=1
+            {t.text="Player X won the Game";x1=1;x2=1;x3=1; x4=1;x5=1;x6=1;x7=1; x8=1;x9=1}
             else if(xy==0)
-                t.text="Player 0 won the Game";x1=1;x2=1;x3=1; x4=1;x5=1;x6=1;x7=1; x8=1;x9=1
+            { t.text="Player 0 won the Game";x1=1;x2=1;x3=1; x4=1;x5=1;x6=1;x7=1; x8=1;x9=1}
             else if(xy==2)
                 t.text="It's a Tie"
         }
